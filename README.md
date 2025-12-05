@@ -76,7 +76,7 @@ yolo pose predict model="best.pt" source="videos/example.mp4" conf=0.25 save=Tru
 After completion, results (including annotated videos) will be saved under:
 runs/pose/predict/
 
-# 3. Model Information
+## 4. Model Information
 
 Base model: YOLOv8n-pose (yolov8n-pose.pt)
 
@@ -87,7 +87,7 @@ Training epochs: 200
 Image size: 640
 Optimizer: AdamW
 
-# 4. CVAT user manual
+## 5. CVAT user manual
 1. Create a Task
 <img width="600" height="400" alt="屏幕截图 2025-12-04 215929" src="https://github.com/user-attachments/assets/6313f5fb-f633-44ac-9438-4681e0c7ca3f" />
 
@@ -103,7 +103,7 @@ Optimizer: AdamW
 5.  Download Ultralytics YOLO Pose 1.0 file for fine-tuning YOLO
 <img width="400" height="400" alt="屏幕截图 2025-12-04 220605" src="https://github.com/user-attachments/assets/2395264d-611d-4735-b6d7-1e631d081945" />
 
-# 5. Contact
+## 6. Contact
 If you have questions or want to collaborate:
 
 Author: Yankai Zhao
